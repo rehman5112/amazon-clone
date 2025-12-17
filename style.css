@@ -1,0 +1,2246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+#logo {
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://imgs.search.brave.com/YRl0bj5CxkmMrdEObCgzmBISY0l5PjKbh-oLhbK4EvQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDQvQW1hem9uLUVt/YmxlbS03MDB4Mzk0/LmpwZw);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+    z-index: 9;
+    border-bottom: 2px solid white;
+}
+
+#address {
+    margin: 5px 2px 5px 0px;
+    color: #d6d6d6;
+    padding: 0px 9px;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+}
+
+#deliver {
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+
+#pakistan {
+    font-size: 1.1rem;
+    padding: 0px 0px 1px;
+    color: #ffffff;
+}
+
+#srch-nav {
+    color: #0f1111;
+    padding: 10px 4px 10px 3px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+
+input {
+    padding: 9.6px;
+    width: 40rem;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.849);
+    height: 2.4rem;
+    border: none;
+    /* border: 2px solid red; */
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#magnification {
+    background-color: mediumvioletred;
+    width: 3rem;
+    height: 2.4rem;
+    border: none;
+    /* border: 2px solid red; */
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: white;
+    font-size: 25px;
+}
+
+#magnification:hover {
+    background-color: rgb(253, 8, 163);
+}
+
+#all:hover {
+    color: black;
+    font-size: 15px;
+    background-color: #d6d6d6bd;
+}
+
+::placeholder {
+    color: black;
+    font-style: inherit;
+    font-size: larger;
+}
+
+input:hover {
+    border: 2px solid rgba(152, 152, 248, 0.925);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.712);
+}
+
+#opt-all {
+    color: red;
+}
+
+#pak {
+    color: green;
+    text-transform: capitalize;
+    background-color: rgba(0, 128, 0, 0.39);
+}
+
+/* Flag div ites amazing bro tayyab  */
+#flag {
+    width: 3vw;
+    height: 3vh;
+    background-image: url(https://imgs.search.brave.com/7zHhx-Rl9dOafacxb6T7t9KIYTv3kOYfgaBcGm1oq_0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDgv/MjMzLzQxNy9zbWFs/bC9wYWtpc3Rhbi10/YWJsZS1mbGFnLXRy/YW5zcGFyZW50LXBu/Zy5wbmc);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+
+#flagpak {
+    display: flex;
+    align-items: center;
+}
+
+#opt-flag {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#flag-select {
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sin {
+    color: white;
+    align-items: center;
+    width: 9vw;
+    height: 6vh;
+    /* background-color: red; */
+}
+
+#Hello {
+    font-size: 13px;
+}
+
+#Accounts {
+    /* color: red; */
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#return {
+    color: white;
+}
+
+#ret {
+    font-size: 13px;
+}
+
+#order {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#basket {
+    color: white;
+    font-size: 40px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bas {
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+/* Nav-second */
+#nav-sec {
+    color: beige;
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(2, 66, 36);
+    display: flex;
+    justify-content: space-between;
+}
+
+#hide-bar {
+
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#hide-all {
+    padding-left: 4px;
+}
+
+#amazone-Haul {
+    display: flex;
+    align-items: center;
+}
+
+#list-items {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style: none;
+}
+
+#down {
+    color: blue;
+}
+
+#down:hover {
+    color: white;
+}
+
+#add-line {
+    color: white;
+    font-size: 23px;
+}
+
+#add-line:hover {
+    color: black;
+}
+
+/* ALL     li   k ander   Amazone   hal */
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-right: 17px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: rgba(2, 2, 34, 0.651);
+    font-size: 14.2px;
+    border-bottom: 2px solid rgba(0, 0, 255, 0.212);
+}
+
+/* Herro section */
+#hero-section {
+    background-image: url(./header.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+/* first div starting divided another div  */
+#page1-background-color {
+    height: 70%;
+    width: 100%;
+    background-color: rgb(19, 128, 238);
+}
+
+#page1-combine {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 128, 238);
+    position: relative;
+}
+
+.page1-all {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 128, 238);
+    position: relative;
+    display: flex;
+    column-gap: 20px;
+    padding: 6px 20px;
+}
+
+#page1-one {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(253, 249, 242);
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#page1-two {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(243, 247, 226);
+}
+
+#page1-three {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 255, 106);
+}
+
+#page1-four {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(234, 231, 235);
+    position: relative;
+    overflow: hidden;
+    padding: 8px 15px;
+}
+
+/*  css     startind Page1-one   */
+#page1-div1 {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    transform: translate(-50% -50%);
+}
+
+#page1-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#page1-div2 {
+    height: 21vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 10px;
+}
+
+#page1-div2-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./computer.jpg);
+    background-size: cover;
+}
+
+#page1-div2-left:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-div2-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./phones.jpg);
+    background-size: cover;
+}
+
+#page1-div2-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-div3 {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#phones {
+    color: black;
+}
+
+#phones:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+#computer {
+    color: black;
+}
+
+#computer:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+#page1-div4 {
+    height: 21vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 10px;
+}
+
+#page1-div4-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./headphones.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page1-div4-left:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-div4-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./virtual-reality.jpg);
+    background-size: cover;
+    background-position: center;
+    /* backdrop-filter: blur(20px); */
+}
+
+#page1-div4-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-div5 {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#page1-headphones {
+    color: black;
+}
+
+#page1-headphones:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+#virtual-reality {
+    color: black;
+}
+
+#virtual-reality:hover {
+    background-color: white;
+    color: blue;
+    border-bottom: 2px solid white;
+}
+
+#page1-div6 {
+    height: 6.2vh;
+    width: 100%;
+    background-color: white;
+}
+
+#discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: rgba(0, 0, 255, 0.863);
+    font-size: 17px;
+}
+
+#discover:hover {
+    color: blue;
+    background-color: white;
+    border: 2px solid white;
+}
+
+/*   page1-two starting  */
+#page1-two {
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.925);
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Div1 */
+#page1-two-div1 {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1-two-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Div2 */
+#page1-two-div2 {
+    height: 21vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 10px;
+}
+
+#page1-two-div2-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Gift\ pakages.jpg);
+    background-size: cover;
+    border-radius: 0;
+}
+
+#page1-two-div2-left:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-two-div2-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Articals\ .jpg);
+    background-size: cover;
+    border-radius: 0;
+}
+
+#page1-two-div2-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div3 */
+#page1-two-div3 {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#page1-two-computer,
+#page1-two-phones {
+    color: black;
+    text-decoration: none;
+}
+
+#page1-two-computer:hover,
+#page1-two-phones:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Div4 */
+#page1-two-div4 {
+    height: 21vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 10px;
+}
+
+#page1-two-div4-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Decorations.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page1-two-div4-left:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-two-div4-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Beauty.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page1-two-div4-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div5 */
+#page1-two-div5 {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3px;
+}
+
+#page1-two-headphones,
+#page1-two-virtual-reality {
+    color: black;
+    text-decoration: none;
+}
+
+#page1-two-headphones:hover,
+#page1-two-virtual-reality:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Div6 */
+#page1-two-div6 {
+    height: 6.2vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+#page1-two-discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    /* margin-bottom: 5px; */
+    color: rgba(0, 0, 255, 0.863);
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+#page1-two-discover:hover {
+    color: blue;
+    background-color: white;
+    border: 2px solid white;
+}
+
+/* page1-three started */
+#page1-three {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(240, 238, 238);
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Div1 */
+#page1-three-div1 {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1-three-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Div2 */
+#page1-three-div2 {
+    height: 21vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 10px;
+}
+
+#page1-three-div2-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Fragrance.jpg);
+    background-size: cover;
+    border-radius: 0;
+}
+
+#page1-three-div2-left:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-three-div2-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Haircare.jpg);
+    background-size: cover;
+    border-radius: 0;
+}
+
+#page1-three-div2-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div3 */
+#page1-three-div3 {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#page1-three-computer,
+#page1-three-phones {
+    color: black;
+    text-decoration: none;
+}
+
+#page1-three-computer:hover,
+#page1-three-phones:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Div4 */
+#page1-three-div4 {
+    height: 21vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    column-gap: 10px;
+    padding: 5px 10px;
+}
+
+#page1-three-div4-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./skincare.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page1-three-div4-left:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-three-div4-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./Makeup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page1-three-div4-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div5 */
+#page1-three-div5 {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#page1-three-headphones,
+#page1-three-virtual-reality {
+    color: black;
+    text-decoration: none;
+}
+
+#page1-three-headphones:hover,
+#page1-three-virtual-reality:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Div6 */
+#page1-three-div6 {
+    height: 6.2vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1-three-discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: rgba(0, 0, 255, 0.863);
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+#page1-three-discover:hover {
+    color: blue;
+    background-color: white;
+    border: 2px solid white;
+}
+
+/* Page1-four started */
+#page1-four-top {
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+#page1-four-center {
+    height: 67%;
+    width: 100%;
+    background-image: url(./moneyback..jpg);
+    margin-bottom: 5px;
+    background-size: cover;
+}
+
+#page1-four-center:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+#page1-four-bottom {
+    height: 15.8%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#top-100 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#Shop-now-page1 {
+    color: rgba(0, 0, 255, 0.877);
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#Shop-now-page1:hover {
+    border-bottom: 2px solid white;
+    color: blue;
+}
+
+#page2-background-color {
+    height: 70%;
+    width: 100%;
+    background-color: rgb(19, 128, 238);
+}
+
+#page2-combine {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 128, 238);
+    position: relative;
+}
+
+#page2-all-div {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 128, 238);
+    position: relative;
+    display: flex;
+    column-gap: 20px;
+    padding: 6px 20px;
+}
+
+#page2-one-div {
+    height: 100%;
+    width: 25%;
+    background-color: red;
+}
+
+#page2-two-div {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(0, 255, 170);
+}
+
+#page2-three-div {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(251, 255, 0);
+}
+
+#page2-four-div {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(21, 255, 0);
+}
+
+/* page2-one-div started  */
+/* Page2-one copy START */
+
+#page2-one-copy {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(253, 249, 242);
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Div1 */
+#p2-div1 {
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p2-h2 {
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Div2 */
+#p2-div2 {
+    height: 21vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+#p2-div2-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./toy.jpg);
+    background-size: cover;
+}
+
+#p2-div2-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./games.jpg);
+    background-size: cover;
+}
+
+#p2-div2-left:hover,
+#p2-div2-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div3 */
+#p2-div3 {
+    height: 6vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#page2-toy {
+    color: black;
+}
+
+#page2-toy:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: none;
+}
+
+#page2-game {
+    color: black;
+}
+
+#page2-game:hover {
+    color: blue;
+    border-bottom: none;
+    background: none;
+}
+
+/* Div4 */
+#p2-div4 {
+    height: 21vh;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+#p2-div4-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(./mom.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#p2-div4-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./dad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#p2-div4-left:hover,
+#p2-div4-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div5 */
+#p2-div5 {
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#page2-mother {
+    color: black;
+}
+
+#page2-mother:hover {
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: blue;
+}
+
+#page2-father {
+    color: black;
+}
+
+#page2-father:hover {
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: blue;
+}
+
+/* Div6 */
+#p2-div6 {
+    height: 6.2vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2-one-shope {
+    color: rgba(0, 0, 255, 0.863);
+    background-color: white;
+    margin-bottom: 18px;
+
+}
+
+#page2-one-shope:hover {
+    color: blue;
+    border-bottom: 2px solid white;
+}
+
+/* Page2-one-div END */
+/* page2-two-div started */
+#page2-two-div {
+    height: 100%;
+    width: 100;
+    background-color: rgb(236, 222, 222);
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#page2-two-div-1 {
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#dis-tecnology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2-two-div-2 {
+    width: 100%;
+    height: 75%;
+    background-image: url(./tecnologyy.jpg);
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+#page2-two-div-3 {
+    width: 100%;
+    height: 12.8%;
+    background-color: white;
+    display: flex;
+    align-items: end;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+#tecnolgy-discover {
+    color: rgba(0, 0, 255, 0.856);
+    font-size: 1.2vw;
+}
+
+#tecnolgy-discover:hover {
+    color: blue;
+    border-bottom: none;
+    background: none;
+
+}
+
+/* Page2-three-div divided another dives */
+/* Page2-Three rewritten version */
+
+.p2three-box {
+    width: 25%;
+    background: #fdf9f2;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+/* Title */
+.p2three-title {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-bottom: 5px;
+}
+
+.p2three-title h2 {
+    font-size: 1.2rem;
+}
+
+/* Two-column image rows */
+.p2three-row {
+    height: 21vh;
+    display: flex;
+    gap: 10px;
+    background: white;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+}
+
+.p2three-img {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+.p2three-img:hover {
+    border: 1px solid #c5bfbf;
+}
+
+/* Images */
+.p2three-img1 {
+    background-image: url(./adidaas.jpg );
+    background-size: cover;
+}
+
+.p2three-img2 {
+    background-image: url(./Skecherss.jpg);
+}
+
+.p2three-img3 {
+    background-image: url(./geoxx.jpg);
+}
+
+.p2three-img4 {
+    background-image: url(./pumaa.jpg);
+}
+
+/* Text links below images */
+.p2three-links {
+    height: 4vh;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#adidas {
+    color: black;
+}
+
+#adidas:hover {
+    background: none;
+    border: none;
+    color: #0040ff;
+}
+
+#Skechers {
+    color: black;
+}
+
+#Skechers:hover {
+    color: #0040ff;
+    background: none;
+    border: none;
+}
+
+#Geox {
+    color: black;
+}
+
+#Geox:hover {
+    color: blue;
+    border: none;
+    background: none;
+}
+
+.p2three-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#puma {
+    color: black;
+}
+
+#puma:hover {
+    color: #0040ff;
+    background: none;
+    border: none;
+}
+
+.p2three-links a:hover {
+    color: blue;
+}
+
+/* Discover */
+.p2three-discover {
+    background: white;
+    height: 6.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2-discover-shope {
+    display: flex;
+    margin-bottom: 27px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.p2three-discover a {
+    color: #0040ff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.p2three-discover a:hover {
+    color: blue;
+}
+
+/*page2-four-div diveded another dives */
+/* Main container */
+#page2-four-copy {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(253, 249, 242);
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Div1 - Header */
+#p4-div1 {
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p4-h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Div2 - Images Row 1 */
+#p4-div2 {
+    height: 21vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+}
+
+#p4-div2-left,
+#p4-div2-right {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 0;
+    transition: 0.2s ease;
+}
+
+#p4-div2-left {
+    background-image: url(./man\ watch.jpg);
+}
+
+#p4-div2-right {
+    background-image: url(./womanswatch.jpg);
+}
+
+#p4-div2-left:hover,
+#p4-div2-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div3 - Links Row 1 */
+#p4-div3 {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#p4-div3 a {
+    color: black;
+    text-decoration: none;
+}
+
+#p4-div3 a:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Div4 - Images Row 2 */
+#p4-div4 {
+    height: 21vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+#p4-div4-left,
+#p4-div4-right {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#p4-div4-left {
+    background-image: url(./luggage.jpg);
+}
+
+#p4-div4-right {
+    background-image: url(./jowelary.jpg);
+}
+
+#p4-div4-left:hover,
+#p4-div4-right:hover {
+    border: 0.2px solid rgba(165, 156, 156, 0.959);
+    border-radius: 10px;
+}
+
+/* Div5 - Links Row 2 */
+#p4-div5 {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#p4-div5 a {
+    color: black;
+    text-decoration: none;
+}
+
+#p4-div5 a:hover {
+    color: blue;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Div6 - Discover */
+#p4-div6 {
+    height: vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p4-discover {
+    color: rgba(0, 0, 255, 0.863);
+    text-decoration: none;
+    font-weight: 780;
+    font-size: 16px;
+}
+
+#p4-discover:hover {
+    color: blue;
+    border: 2px solid white;
+    background: none;
+}
+
+/*  page3  three section started    */
+#page3-back-color {
+    background-color: white;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 5px 20px;
+}
+
+#page3-top-bar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+
+#page3-shop {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+#page3-ank {
+    display: flex;
+    align-items: center;
+}
+
+#page3-disc {
+    color: rgba(0, 0, 255, 0.904);
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+#page3-disc:hover {
+    background: none;
+    color: blue;
+    border: none;
+}
+
+.page3-all-div {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+
+}
+
+#page3-first-div {
+    width: 16.6%;
+    /* background-color: pink; */
+    height: 100%;
+
+}
+
+#page3-first-div-s {
+    background-image: url(./man-bakgroundin\ red.jpg);
+    height: 71%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#page3-first-div-s:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#page3-first-div-2s {
+    background-color: rgb(241, 233, 233);
+    height: 7.4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#page3-mens-gift {
+    color: black;
+}
+
+#page3-mens-gift:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page3-second-div {
+    width: 16.6%;
+    /* background-color: rgb(25, 91, 136); */
+    height: 100%;
+}
+
+#page3-second-div-s {
+    background-image: url(./womansredback.jpg);
+    height: 71%;
+    width: 100%;
+    background-size: cover;
+}
+
+#page3-second-div-s:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#page3-womans-gift {
+    color: black;
+}
+
+#page3-womans-gift:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page3-second-div-2s {
+    background-color: rgb(241, 233, 233);
+    height: 7.4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+#page3-third-div {
+    width: 16.6%;
+    /* background-color: rgb(197, 171, 57); */
+    height: 100%;
+}
+
+#page3-third-div-s {
+    width: 100%;
+    background-image: url(./menRedback.jpg);
+    background-size: cover;
+    background-size: cover;
+    height: 71%;
+}
+
+#page3-third-div-s:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#page3-mens-gift {
+    color: black;
+}
+
+#page3-mens-gift:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page3-third-div-2s {
+    width: 100%;
+    background-color: rgb(241, 233, 233);
+    height: 7.4%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3-four-div {
+    width: 16.6%;
+    /* background-color: rgb(116, 212, 26); */
+    height: 100%;
+}
+
+#page3-four-div-s {
+    width: 100%;
+    background-image: url(./woman\ winter.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 71%;
+}
+
+#page3-four-div-s:hover {
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+
+#page3-four-div-2s {
+    width: 100%;
+    background-color: rgb(241, 233, 233);
+    height: 7.4%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3-womanswinter {
+    color: black;
+}
+
+#page3-womanswinter:hover {
+    color: blue;
+    border: none;
+    background: none;
+}
+
+#page3-five-div {
+    width: 16.6%;
+    /* background-color: rgb(73, 20, 29); */
+    height: 100%;
+}
+
+#page3-five-div-s {
+    width: 100%;
+    background-image: url(./grafic\ shirt.jpg);
+    background-size: cover;
+    height: 71%;
+}
+
+#page3-five-div-s:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#page3-five-div-2s {
+    width: 100%;
+    background-color: rgb(241, 233, 233);
+    height: 7.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#page3-grafic {
+    color: black;
+}
+
+#page3-grafic:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page3-six-div {
+    width: 16.6%;
+    /* background-color: rgb(214, 15, 138); */
+    height: 100%;
+}
+
+#page3-six-div-s {
+    width: 100%;
+    background-image: url(./winter\ travel.jpg);
+    background-size: cover;
+    height: 71%;
+}
+
+#page3-six-div-s:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#page3-six-div-2s {
+    width: 100%;
+    background-color: rgb(241, 233, 233);
+    height: 7.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#page3-winter-travel {
+    color: black;
+}
+
+#page3-winter-travel:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page4-back-color {
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 5px 0px;
+    padding-left: 40px;
+}
+
+#page4-top {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(248, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page4-left-right {
+    color: rgba(85, 85, 138, 0.836);
+}
+
+#page4-left-right:hover {
+    color: blue;
+}
+
+#page4-top-right {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#page4-all-div {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    column-gap: 10px;
+    padding: 10px 15px;
+}
+
+#page4-one {
+    width: 16.6%;
+    height: 100%;
+    background-color: brown;
+}
+
+#page4-one-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(./Nuraj\ musik\ Award\ 2025.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page4-star {
+    color: rgb(236, 108, 2);
+    font-size: 25px;
+}
+
+#page4-dollor-sin {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#page4-dollor-sin:hover {
+    color: rgba(0, 0, 255, 0.829);
+    background: none;
+    border: none;
+}
+
+#page4-first-dallar {
+    font-size: 13px;
+    color: black;
+    margin-top: 7px;
+}
+
+#multi {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+#page4-audio-cd {
+    font-size: 13px;
+}
+
+#nrj-music {
+    color: blue;
+    font-size: 13px;
+}
+
+#nrj-music:hover {
+    background: none;
+    border: none;
+}
+
+#page4-one-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+
+}
+
+#page4-two {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(130, 179, 17);
+}
+
+#page4-two-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(./AdidaswhiteBackgroungShows.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page4-7808 {
+    color: rgb(9, 42, 224);
+    font-size: 10px;
+}
+
+#page4-10k-vie {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#page4-half-star {
+    color: rgb(236, 108, 2);
+    font-size: 22px;
+}
+
+#page4-two-31 {
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#page4-two-31:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page4-sec-adidas {
+    color: rgba(0, 0, 255, 0.897);
+    font-size: 13px;
+    /* margin-left: 30px; */
+}
+
+#page4-sec-adidas:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page4-two-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#page4-three {
+    width: 16.6%;
+    height: 100%;
+    background-color: white;
+}
+
+#page4-three-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(./Adrenaline\,the\ Reissue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page4-adrenaline {
+    color: rgba(0, 0, 255, 0.911);
+    font-size: 13px;
+}
+
+#mpokora {
+    color: black;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+#page4-adrenaline:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page4-three-icon-star {
+    color: rgb(236, 108, 2);
+    font-size: 24px;
+}
+
+#page4-three-audio {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#page4-three-16-99 {
+    margin-top: 5px;
+    font-weight: 550;
+    color: black;
+    font-size: 18px;
+}
+
+#page4-three-16-99:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page4-three-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#page4-four {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(173, 10, 10);
+}
+
+#page4-four-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(./in\ purisuit\ movie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page4-four-inPrusuied {
+    color: blue;
+    font-size: 13px;
+}
+
+#page4-four-inPrusuied:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+#page4-four-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#page4-five {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(42, 140, 165);
+}
+
+#page4-five-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(./m-pokora.jpg);
+    background-size: cover;
+}
+
+#page4-five-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#page4-six {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(42, 165, 89);
+}
+
+#page4-six-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(./Pyramide-epilogue.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page4-six-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#page5-gr {
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
+
+/* page5-started */
+#page5-see-personalised {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page5-sinup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page5-sinup>button {
+    color: black;
+    padding: 0.7vw 7vw;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(252, 181, 4);
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+#page5-sinup>button:hover {
+    background-color: rgba(248, 181, 11, 0.904);
+}
+
+#page5-new-customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#page5-anchor {
+    color: rgba(0, 0, 255, 0.815);
+    font-size: 15px;
+}
+
+#page5-anchor:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+
+/* back to top */
+#page5-back-top {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.856);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 13px; */
+    margin-top: 14px;
+    margin-bottom: 1px;
+    /* font-weight: 600; */
+}
+
+#page5-back-top:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+#page5-back-ank {
+    color: white;
+}
+
+#page5-back-ank:hover {
+    color: rgb(233, 233, 238);
+    background: none;
+    border: none;
+    font-weight: 600;
+}
+
+#page6-foter-1 {
+    background-color: red;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+#page6-foter-one {
+    width: 16.6%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#page6-foter-two {
+    width: 16.6%;
+    height: 100%;
+    background-color: #343434;
+}
+
+#page6-foter-three {
+    width: 16.6%;
+    height: 100%;
+    background-color: #343434;
+}
+
+#page6-foter-four {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(179, 255, 0);
+}
+
+#page6-foter-five {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(255, 51, 0);
+}
+
+#page6-foter-six {
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(255, 0, 212);
+}
+
+#page6-get {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.page6-sec-about {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+
+}
+
+.page6-sec-about:hover {
+    color: white;
+    background: none;
+    border-color: white;
+    /* padding: 0px 3x; */
+}
+
+#page6-foter-three-anchor {
+    color: white;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+    font-size: 13px;
+      min-width: max-content;
+}
+
+#page6-foter-three-anchor:hover {
+    border: none;
+    background: none;
+}
+
+.page6-three-anck {
+    display: flex;
+    justify-content: center;
+
+}
+
+#lama {
+    color: white;
+    font-size: 20px;
+}
+
+/* class make money with us */
+.page6-three-anck {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.page6-three-anck:hover {
+    background: none;
+    border-color: white;
+}
